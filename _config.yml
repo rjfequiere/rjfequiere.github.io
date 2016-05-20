@@ -1,0 +1,12 @@
+title: Roxanne Fequiere
+email: roxanne.fequiere@gmail.com
+description: >
+  Roxanne's personal portfolio.
+baseurl: ""
+url: "http://roxannefequiere.com"
+twitter_username: roxannefequiere
+instagram_username: roxannefequiere
+linkedin_username: roxanne-fequiere-338bb413
+
+# Build settings
+markdown: kramdown

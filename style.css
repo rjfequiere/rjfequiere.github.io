@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-html, body, h1 a {
+html, body, .site-header h1 a, .site-header h2 a {
   color: rgb(55, 53, 59);
 }
 
@@ -27,13 +27,21 @@ html, body {
   background-color: #fbe9ec;
 }
 
-h1 {
-  margin-bottom: 0.34em;
+.site-header h1, .site-header h2 {
   font-family: PeignotLTStd-Demi;
   font-weight: normal;
   font-style: normal;
   font-size: 600%;
   text-transform: lowercase;
+}
+
+.site-header h1 {
+  margin-bottom: 0.34em;
+  font-size: 600%;
+}
+
+.site-header h2 {
+  font-size: 400%;
 }
 
 h2 {
@@ -77,7 +85,11 @@ nav a {
 
 .site-header {
   text-align: center;
-  padding: 3em 0 4em;
+  padding: 3em 0 2em;
+}
+
+.site-header-slim {
+  padding: 1.5em 0 2.2em;
 }
 
 .site-footer {

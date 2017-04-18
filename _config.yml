@@ -10,3 +10,5 @@ linkedin_username: roxanne-fequiere-338bb413
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-redirect-from

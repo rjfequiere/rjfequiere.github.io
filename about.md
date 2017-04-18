@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Info
+title: About
+redirect_from:
+  - /info/
 ---
 <div class="info">
   <div class="info-item profile-pic">

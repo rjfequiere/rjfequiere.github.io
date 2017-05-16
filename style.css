@@ -27,6 +27,12 @@ html, body {
   background-color: #fbe9ec;
 }
 
+figcaption {
+  font-size: 0.5em;
+  font-style: italic;
+  text-align: right;
+}
+
 .site-header h1, .site-header h2 {
   font-family: PeignotLTStd-Demi;
   font-weight: normal;
@@ -95,6 +101,7 @@ nav a {
   left: 0.5em;
   bottom: 0.2em;
   color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
 }
 
 .site-header {

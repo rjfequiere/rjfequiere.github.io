@@ -8,7 +8,7 @@ redirect_from:
   <div class="info-item profile-pic">
     <div>
       <img src="/images/profile2.jpg">
-      <figcaption>Photo ©2017 Laurel Golio</figcaption>
+      <figcaption>Photo © Laurel Golio 2017</figcaption>
     </div>
   </div>
   <div class="info-item">

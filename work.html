@@ -3,15 +3,21 @@ layout: page
 title: Work
 ---
 {% for work in site.data.work %}
+<div class="work-section">
 <div class="work-item">
-  <div class="visual {% cycle '', 'right' %}">
+  <div class="visual {% cycle '', 'right' %}{% if work.image.flex %} flex-{{ work.image.flex }}{% endif %}">
     <div class="content">
       {% if work.visual %}
       {{ work.visual }}
       {% endif %}
+      {% if work.image %}
+      <a href="#" data-featherlight="{{ work.image.full }}">
+        <img src="{{ work.image.thumbnail }}">
+      </a>
+      {% endif %}
     </div>
   </div>
-  <div class="notes {% cycle 'right', '' %}">
+  <div class="notes {% cycle 'right', '' %}{% if work.flex %} flex-{{ work.flex }}{% endif %}">
     <div class="content">
       {% if work.title %}<h2>{{ work.title }}</h2>{% endif %}
       {% if work.subtitle %}<h3>{{ work.subtitle}}</h3>{% endif %}
@@ -20,4 +26,23 @@ title: Work
     </div>
   </div>
 </div>
+{% if work.images %}
+<div class="work-item row-2">
+  {% for image in work.images %}
+  <div class="visual{% if image.flex %} flex-{{ image.flex }}{% endif %}">
+    <div class="content">
+      <a href="#" data-featherlight="{{ image.full }}">
+        <img src="{{ image.thumbnail }}">
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+</div>
+{% if work != site.data.work.last %}
+<div class="work-section">
+  <hr>
+</div>
+{% endif %}
 {% endfor %}

@@ -2,34 +2,74 @@
   title: "Golly: a singular woman's magazine"
   subtitle: Founder, editor-in-chief, writer
   description: >
-    Launched in 2014 with the help of a successful [Kickstarter campaign](https://www.kickstarter.com/projects/gollymagazine/golly-magazine),
-    Golly is an antidote to vapid ladymags, a member of the
-    "[great indie magazine explosion](http://www.vogue.com/1856125/indie-magazine-independent-bookstore-explosion/),”
-    (Vogue.com) and “[your new favorite magazine](http://www.refinery29.com/2014/08/73154/golly-magazine-kickstarter)” (Refinery29).
+    Launched in 2014 with the help of a successful [Kickstarter campaign](https://www.kickstarter.com/projects/gollymagazine/golly-magazine), Golly is an antidote to vapid ladymags, a member of the “[great indie magazine explosion](http://www.vogue.com/1856125/indie-magazine-independent-bookstore-explosion/),” (Vogue.com) and “[your new favorite magazine](http://www.refinery29.com/2014/08/73154/golly-magazine-kickstarter)” (Refinery29).
+  flex: 4
   link:
     text: gollymagazine.com
     href: http://www.gollymagazine.com
-  visual: >
-    <img src="/images/golly.jpg">
+  image:
+    thumbnail: /images/golly.jpg
+    full: /images/golly.jpg
+    flex: 3
+  images:
+    -
+      thumbnail: /images/golly-issue1.jpg
+      full: /images/golly-issue1.jpg
+      flex: 2
+    -
+      thumbnail: /images/golly-issue2.jpg
+      full: /images/golly-issue2.jpg
+      flex: 4
 -
   title: "eBay: the world’s largest online marketplace"
   subtitle: Head copywriter
   description: >
-    Since 2011, I've been writing titles and taglines for curated sales and events (featuring
-    everything from fashion finds to religious memorabilia), [blog posts](http://stylestories.ebay.com/author/roxanne/),
-    [collections](http://www.ebay.com/cln/ebaystyleeditor/odd-fashion/291482070013), and so on.
-    Also: collaborating with [creative agencies](http://languagedept.com/case-studies/pivot/ebay-fashion.html)
-    on site redesigns and blog and special campaign launches.
+    Since 2011, I've been writing titles and taglines for curated sales and events (featuring everything from fashion finds to religious memorabilia), [blog posts](http://stylestories.ebay.com/author/roxanne/), [collections](http://www.ebay.com/cln/ebaystyleeditor/odd-fashion/291482070013), and so on. Also: collaborating with [creative agencies](http://languagedept.com/case-studies/pivot/ebay-fashion.html) on site redesigns and blog and special campaign launches.
+  flex: 2
   link:
     text: ebay.com
     href: http://ebay.com
-  visual: >
-    <img src="/images/ebay-branded.jpg">
+  image:
+    thumbnail: "/images/ebay-branded.jpg"
+    full: "/images/ebay-branded.jpg"
+    flex: 3
+  images:
+    -
+      thumbnail: "/images/ebay-artschool.jpg"
+      full: "/images/ebay-artschool.jpg"
+      flex: 4
+    -
+      thumbnail: "/images/ebay-thanks.jpg"
+      full: "/images/ebay-thanks.jpg"
+      flex: 2
 -
-  title: Miscellaneous
-  subtitle: Freelance copywriting, journalism, content production
+  title: "Journalism: because stories don't tell themselves"
+  subtitle: Interviewer, storyteller, editor
   description: >
-    Assorted past posts and gigs at Refinery29, Earnshaw’s, Love Adorned, Bib + Tuck, The WILD, Oakazine, and more.
+    It’s tough to say no to a great assignment. As a result, I’ve been lucky enough to turn in pieces and/or hold down posts at The Village Voice, Refinery29, The WILD, Earnshaw’s, Oakazine, and more.
+  image:
+    thumbnail: "/images/villagevoice-article-site.jpg"
+    full: "/images/villagevoice-article-site.jpg"
+  images:
+    -
+      thumbnail: "/images/villagevoice-cover-pristine.jpg"
+      full: "/images/villagevoice-cover-pristine.jpg"
+    -
+      thumbnail: "/images/villagevoice-giftguide-pristine.jpg"
+      full: "/images/villagevoice-giftguide-pristine.jpg"
+-
+  title: "Copywriting: getting paid to be pithy"
+  subtitle: Wordsmith
+  description: >
+    I have a knack for crafting copy that catches the eye—think snappy merchandise descriptions, punchy one-sheets, emails that don’t get deleted—for businesses large and small, e.g. Flat Vernacular, The Upside, and Love Adorned.
+  image:
+    thumbnail: "/images/flatvernacular.jpg"
+    full: "/images/flatvernacular.jpg"
+-
+  title: "Content production: or, making the vision materialize"
+  subtitle: Transcriber, scriptwriter, concept editor
+  description: >
+    When the written word doesn’t take center stage, I work behind the scenes. From to man-on-the-street segments to brand concept videos to documentary interview transcriptions, I love to take cool ideas and bring them to life.
   visual: >
     <div class="video-wrapper">
       <iframe src="https://player.vimeo.com/video/25252644?portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

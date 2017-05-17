@@ -143,7 +143,11 @@ nav a {
 }
 
 .work-section {
-  margin-bottom: 3em;
+  padding-bottom: 2em;
+}
+
+.work-section.spacer {
+  padding-bottom: 3em;
 }
 
 .work-section hr {

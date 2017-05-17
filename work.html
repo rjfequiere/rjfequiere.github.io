@@ -11,7 +11,11 @@ title: Work
       {{ work.visual }}
       {% endif %}
       {% if work.image %}
+      {% if work.image.href %}
+      <a href="{{ work.image.href }}" target="_blank">
+      {% else %}
       <a href="#" data-featherlight="{{ work.image.full }}">
+      {% endif %}
         <img src="{{ work.image.thumbnail }}">
       </a>
       {% endif %}

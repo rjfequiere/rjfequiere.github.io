@@ -63,9 +63,17 @@
   description: >
     I have a knack for crafting copy that catches the eye—think snappy merchandise descriptions, punchy one-sheets, emails that don’t get deleted—for businesses large and small, e.g. Flat Vernacular, The Upside, and Love Adorned.
   image:
-    thumbnail: "/images/flatvernacular.jpg"
-    full: "/images/flatvernacular.jpg"
-    href: "https://www.flatvernacular.com/who-we-are/"
+    thumbnail: "/images/loveadorned.jpg"
+    full: "/images/loveadorned.jpg"
+    href: "https://www.loveadorned.com/selima-optique-money-3-sunglasses-black"
+  images:
+    -
+      thumbnail: "/images/flatvernacular.jpg"
+      full: "/images/flatvernacular.jpg"
+      href: "https://www.flatvernacular.com/who-we-are/"
+    -
+      thumbnail: "/images/flatvernacular-flyer.jpg"
+      full: "/images/flatvernacular-flyer.jpg"
 -
   title: "Content production: or, making the vision materialize"
   subtitle: Transcriber, scriptwriter, concept editor

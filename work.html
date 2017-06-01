@@ -35,7 +35,11 @@ title: Work
   {% for image in work.images %}
   <div class="visual{% if image.flex %} flex-{{ image.flex }}{% endif %}">
     <div class="content">
+      {% if image.href %}
+      <a href="{{ image.href }}" target="_blank">
+      {% else %}
       <a href="#" data-featherlight="{{ image.full }}">
+      {% endif %}
         <img src="{{ image.thumbnail }}">
       </a>
     </div>

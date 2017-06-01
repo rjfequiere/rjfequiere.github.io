@@ -50,13 +50,16 @@
   image:
     thumbnail: "/images/villagevoice-article-site.jpg"
     full: "/images/villagevoice-article-site.jpg"
+    href: "https://www.villagevoice.com/2017/02/08/meet-your-maker-a-detachers-mona-kowalska/"
   images:
     -
       thumbnail: "/images/villagevoice-cover-pristine.jpg"
       full: "/images/villagevoice-cover-pristine.jpg"
+      href: "https://www.villagevoice.com/2016/12/09/your-holiday-shopping-guide-2016-fashion/"
     -
       thumbnail: "/images/villagevoice-giftguide-pristine.jpg"
       full: "/images/villagevoice-giftguide-pristine.jpg"
+      href: "https://www.villagevoice.com/2016/12/09/your-holiday-shopping-guide-2016-fashion/"
 -
   title: "Copywriting: getting paid to be pithy"
   subtitle: Wordsmith

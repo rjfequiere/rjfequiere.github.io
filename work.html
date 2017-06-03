@@ -26,7 +26,7 @@ title: Work
       {% if work.title %}<h2>{{ work.title }}</h2>{% endif %}
       {% if work.subtitle %}<h3>{{ work.subtitle}}</h3>{% endif %}
       {% if work.description %}<p>{{ work.description | markdownify }}</p>{% endif %}
-      {% if work.link %}<p><a href="{{ work.link.href }}">{{ work.link.text }}</a></p>{% endif %}
+      {% if work.link %}<p><a href="{{ work.link.href }}" target="_blank">{{ work.link.text }}</a></p>{% endif %}
     </div>
   </div>
 </div>

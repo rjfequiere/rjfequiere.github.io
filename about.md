@@ -17,9 +17,9 @@ redirect_from:
       <p class="social">Let's talk:</p>
       <p class="social">
         <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
-        <a href="https://instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram"></i></a>
-        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin"></i></a>
+        <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin"></i></a>
       </p>
     </div>
   </div>

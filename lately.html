@@ -1,0 +1,21 @@
+---
+layout: page
+title: Lately
+---
+<div class="lately-grid">
+{% assign sorted_entries = site.data.lately | sort: 'date' %}
+{% for entry in sorted_entries reversed %}
+<div class="lately-grid-item-sizer"></div>
+<div class="lately-grid-item">
+  {% if entry.image %}
+  <div class="fill">
+    <img src="{{ entry.image }}"/>
+  </div>
+  {% endif %}
+  <a target="_blank" href="{{ entry.link }}">
+    <div class="scrim"></div>
+    <h2>{{ entry.title }} | {{ entry.site }}</h2>
+  </a>
+</div>
+{% endfor %}
+</div>

@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Lately
+layout: page
 ---
+
 <div class="lately-grid">
 {% assign sorted_entries = site.data.lately | sort: 'date' %}
 {% for entry in sorted_entries reversed %}

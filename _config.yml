@@ -1,17 +1,16 @@
+---
 title: Roxanne Fequiere
-email: roxanne.fequiere@gmail.com
-description: >
-  is a writer and editor living in New York.
-baseurl: ""
-url: "http://roxannefequiere.com"
-twitter_username: roxannefequiere
-instagram_username: roxannefequiere
-linkedin_username: roxanne-fequiere-338bb413
-
+timezone: UTC
 collections:
   pieces:
     title: Pieces
     output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''
@@ -20,6 +19,13 @@ defaults:
     image: ''
     link: ''
     site: ''
+email: roxanne.fequiere@gmail.com
+description: 'is a writer and editor living in New York.
 
-# Build settings
+'
+baseurl: ''
+url: http://roxannefequiere.com
+twitter_username: roxannefequiere
+instagram_username: roxannefequiere
+linkedin_username: roxanne-fequiere-338bb413
 markdown: kramdown

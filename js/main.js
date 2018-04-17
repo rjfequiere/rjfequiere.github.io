@@ -7,11 +7,4 @@ $(function() {
   $grid.imagesLoaded().progress(function() {
     $grid.masonry('layout');
   });
-  $('#main').smoothState({
-    prefetch: true,
-    cacheLength: 4,
-    onAfter: function () {
-      $grid.masonry('layout');
-    }
-  });
 });

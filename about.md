@@ -1,9 +1,10 @@
 ---
-layout: page
 title: About
+layout: page
 redirect_from:
-  - /info/
+- "/info/"
 ---
+
 <div class="info">
   <div class="info-item profile-pic">
     <div>

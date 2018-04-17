@@ -20,9 +20,7 @@ defaults:
     link: ''
     site: ''
 email: roxanne.fequiere@gmail.com
-description: 'is a writer and editor living in New York.
-
-'
+description: 'is a writer and editor living in New York.'
 baseurl: 
 url: http://roxannefequiere.com
 twitter_username: roxannefequiere

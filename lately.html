@@ -3,18 +3,18 @@ layout: page
 title: Lately
 ---
 <div class="lately-grid">
-{% assign sorted_entries = site.data.lately | sort: 'date' %}
-{% for entry in sorted_entries reversed %}
+{% assign sorted_pieces = site.pieces | sort: 'date' %}
+{% for piece in sorted_pieces reversed %}
 <div class="lately-grid-item-sizer"></div>
 <div class="lately-grid-item">
-  {% if entry.image %}
+  {% if piece.image %}
   <div class="fill">
-    <img src="{{ entry.image }}"/>
+    <img src="{{ piece.image }}"/>
   </div>
   {% endif %}
-  <a target="_blank" href="{{ entry.link }}">
+  <a target="_blank" href="{{ piece.link }}">
     <div class="scrim"></div>
-    <h2>{{ entry.title }} | {{ entry.site }}</h2>
+    <h2>{{ piece.title }} | {{ piece.site }}</h2>
   </a>
 </div>
 {% endfor %}

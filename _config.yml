@@ -8,5 +8,18 @@ twitter_username: roxannefequiere
 instagram_username: roxannefequiere
 linkedin_username: roxanne-fequiere-338bb413
 
+collections:
+  pieces:
+    title: Pieces
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pieces
+  values:
+    image: ''
+    link: ''
+    site: ''
+
 # Build settings
 markdown: kramdown

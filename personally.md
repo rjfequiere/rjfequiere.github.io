@@ -2,8 +2,8 @@
 title: Personally
 layout: page
 redirect_from:
-- /info/
-- /about.html
+- "/info/"
+- "/about.html"
 order: 2
 ---
 

@@ -24,3 +24,5 @@ twitter_username: roxannefequiere
 instagram_username: roxannefequiere
 linkedin_username: roxanne-fequiere-338bb413
 markdown: kramdown
+plugins:
+- jekyll-redirect-from

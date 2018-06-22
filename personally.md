@@ -1,15 +1,17 @@
 ---
-title: About
+title: Personally
 layout: page
 redirect_from:
-- "/info/"
+- /info/
+- /about.html
+order: 2
 ---
 
 <div class="info">
   <div class="info-item profile-pic">
     <div>
-      <img src="/images/profile2.jpg">
-      <figcaption>Photo © Laurel Golio 2017</figcaption>
+      <img src="/images/profile3.jpg">
+      <figcaption>Photo © Sylvie Rosokoff 2018</figcaption>
     </div>
   </div>
   <div class="info-item">

@@ -54,8 +54,20 @@ h2 {
   margin-bottom: 0.24em;
 }
 
-p {
+h3, h4 {
+  margin-bottom: 0.24em;
+}
+
+p, ul {
   margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 0.2em;
 }
 
 nav a {
@@ -138,6 +150,13 @@ nav a {
   padding: 0.2em;
 }
 
+.info-item h2, h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 .page-content {
   margin-top: 2em;
 }
@@ -169,7 +188,7 @@ nav a {
   width: 100%;
 }
 
-@media screen and (min-width: 572px) {
+@media screen and (min-width: 768px) {
   /* Horizontal layout */
   .work-item {
     display: flex;
@@ -211,7 +230,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 572px;
+    max-width: 768px;
     margin: 0 auto;
   }
 
@@ -230,7 +249,7 @@ nav a {
   }
 }
 
-@media screen and (max-width: 571px) {
+@media screen and (max-width: 767px) {
   .work-item > div, .info .profile-pic {
     margin-bottom: 1em;
   }

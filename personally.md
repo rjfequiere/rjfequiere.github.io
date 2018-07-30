@@ -10,7 +10,7 @@ order: 2
 <div class="info">
   <div class="info-item profile-pic">
     <div>
-      <img src="/images/profile3.jpg">
+      <img src="/images/profile4.jpg"/>
       <figcaption>Photo © Sylvie Rosokoff 2018</figcaption>
     </div>
   </div>

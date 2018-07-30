@@ -11,12 +11,11 @@ order: 2
   <div class="info-item profile-pic">
     <div>
       <img src="/images/profile4.jpg"/>
-      <figcaption>Photo © Sylvie Rosokoff 2018</figcaption>
     </div>
   </div>
   <div class="info-item">
     <div class="info-text">
-      <p>Roxanne Fequiere is a storyteller and New Yorker. The daughter of immigrants, her parents still can’t believe she moved out of a perfectly good room in their Staten Island home to go live all the way up in Harlem. In between bouts of aggressive online window shopping, testing her cats’ patience, and the time it takes to get anywhere from uptown, she some how manages to make a living as a writer.</p>
+      <p>Roxanne Fequiere is a storyteller and New Yorker. The daughter of immigrants, her parents still can’t believe she moved out of a perfectly good room in their Staten Island home to go live all the way up in Harlem. In between bouts of aggressive online window shopping, testing her cats’ patience, and the time it takes to get anywhere from uptown, she somehow manages to make a living as a writer.</p>
       <p>She truly believes that one day she’ll achieve inbox zero.</p>
       <p><a href="mailto:{{ site.email }}">Drop her a line</a> if you want to talk about Maud Martha, your favorite exfoliation methods, the 1964 New York World’s Fair, and/or tell her what she should see when she goes to Brazil later this year.</p>
       <p class="social">
